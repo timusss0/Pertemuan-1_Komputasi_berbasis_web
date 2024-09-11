@@ -1,0 +1,52 @@
+body {
+    padding-top: 100px; 
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    padding: 21px;
+    background-color: rgb(252, 154, 183);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #313131;
+    font-weight: bold;
+}
+
